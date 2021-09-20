@@ -125,6 +125,14 @@ movieSchema.pre('find', function(next) {
   next();
 });
 
+// AGGREGATION MIDDLEWARE
+movieSchema.pre('aggregate', function(next) {
+  this.pipeline().unshift({ $match: { rated: { $ne: 'R' } } });
+
+  console.log(this.pipeline());
+  next();
+});
+
 const Movie = mongoose.model("Movie", movieSchema);
 
 module.exports = Movie;
