@@ -3,7 +3,7 @@ const movieController = require("./../controllers/movieController");
 
 const router = express.Router();
 
-router.route("/movies-stats").get(movieController.getMovieStats);
+router.route("/popular-movies").get(movieController.getMostPopularMovies);
 
 router
   .route("/")

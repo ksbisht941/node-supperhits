@@ -87,19 +87,26 @@ const movieSchema = new mongoose.Schema({
   sequal: [
     {
       type: mongoose.Schema.ObjectId,
-      ref: 'Movie'
-    }
+      ref: "Movie",
+    },
   ],
   createdAt: {
     type: Date,
     default: Date.now(),
-    select: false
+    select: false,
   },
   updatedAt: {
     type: Date,
     default: Date.now(),
-    select: false
+    select: false,
   }
+}, {
+  toJSON: { virtuals: true },
+  toObject: { virtuals: true }
+});
+
+movieSchema.virtual("fieldName").get(function () {
+  return "null";
 });
 
 const Movie = mongoose.model("Movie", movieSchema);

@@ -128,7 +128,7 @@ exports.deleteMovie = async (req, res) => {
   }
 };
 
-exports.getMovieStats = async (req, res) => {
+exports.getMostPopularMovies = async (req, res) => {
   try {
     const stats = await Movie.aggregate([
       {
@@ -138,7 +138,7 @@ exports.getMovieStats = async (req, res) => {
       },
       {
         $group: {
-          _id: '$genre',
+          _id: "$genre",
           numMovies: {
             $sum: 1,
           },
@@ -151,8 +151,8 @@ exports.getMovieStats = async (req, res) => {
         },
       },
       {
-        $sort: { avgPopularity: 1 }
-      }
+        $sort: { avgPopularity: 1 },
+      },
     ]);
 
     res.status(200).json({
@@ -167,3 +167,34 @@ exports.getMovieStats = async (req, res) => {
     });
   }
 };
+
+// exports.getMostPopularMovies = async (req, res) => {
+//   try {
+//     const movies = await Movie.aggregate([
+//       $match: {
+
+//       },
+//       $group: {
+
+//       },
+//       $sort: {
+
+//       },
+
+//     ]);
+
+//     res.status(200).json({
+//       code: "0",
+//       status: "success",
+//       message: "Fetch data successfully",
+//       data: movies,
+//     });
+//   } catch (err) {
+//     res.status(404).json({
+//       code: "1",
+//       status: "fail",
+//       message: "Something went wrong. Please try again somtimes later.",
+//       error: err,
+//     });
+//   }
+// };
