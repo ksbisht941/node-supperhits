@@ -29,7 +29,7 @@ exports.getAllMovies = async (req, res) => {
       },
     });
   } catch (err) {
-    res.status(404).json({
+    res.status(500).json({
       code: "1",
       status: "fail",
       message: "Something went wrong. Please try again somtimes later.",
@@ -57,7 +57,7 @@ exports.getMovie = async (req, res) => {
       data: movie,
     });
   } catch (err) {
-    res.status(404).json({
+    res.status(500).json({
       code: "1",
       status: "fail",
       message: "Something went wrong. Please try again somtimes later.",
@@ -77,7 +77,7 @@ exports.postMovie = async (req, res) => {
       data: movie,
     });
   } catch (err) {
-    res.status(404).json({
+    res.status(500).json({
       code: "1",
       status: "fail",
       message: "Something went wrong. Please try again somtimes later.",
@@ -100,7 +100,7 @@ exports.updateMovie = async (req, res) => {
       data: movie,
     });
   } catch (err) {
-    res.status(404).json({
+    res.status(500).json({
       code: "1",
       status: "fail",
       message: "Something went wrong. Please try again somtimes later.",
@@ -119,7 +119,7 @@ exports.deleteMovie = async (req, res) => {
       message: "Movie delete successfully",
     });
   } catch (err) {
-    res.status(404).json({
+    res.status(500).json({
       code: "1",
       status: "fail",
       message: "Something went wrong. Please try again somtimes later.",
@@ -159,7 +159,7 @@ exports.getMostPopularMovies = async (req, res) => {
       data: stats,
     });
   } catch (err) {
-    res.status(404).json({
+    res.status(500).json({
       code: "1",
       status: "fail",
       message: "Something went wrong. Please try again somtimes later.",
