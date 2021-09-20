@@ -1,0 +1,18 @@
+{
+  "name": "supperhits",
+  "version": "1.0.0",
+  "description": "Supperhits is a web service for receiving movie, serial and cast information. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "dotenv": "^7.0.0"
+  }
+}
