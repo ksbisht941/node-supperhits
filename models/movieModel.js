@@ -6,6 +6,7 @@ const movieSchema = new mongoose.Schema(
     title: {
       type: String,
       required: [true, "A movie must have a title."],
+      unique: true
     },
     slug: String,
     rated: {
@@ -120,18 +121,18 @@ movieSchema.pre('save', function (next) {
 });
 
 // QUERY DOCUMENTS
-movieSchema.pre('find', function(next) {
-  this.find( { rated: {$ne: 'R'} });
-  next();
-});
+// movieSchema.pre('find', function(next) {
+//   this.find( { rated: {$ne: 'R'} });
+//   next();
+// });
 
 // AGGREGATION MIDDLEWARE
-movieSchema.pre('aggregate', function(next) {
-  this.pipeline().unshift({ $match: { rated: { $ne: 'R' } } });
+// movieSchema.pre('aggregate', function(next) {
+//   this.pipeline().unshift({ $match: { rated: { $ne: 'R' } } });
 
-  console.log(this.pipeline());
-  next();
-});
+//   console.log(this.pipeline());
+//   next();
+// });
 
 const Movie = mongoose.model("Movie", movieSchema);
 

@@ -1,5 +1,6 @@
 const Movie = require("./../models/movieModel");
 const APIFeatures = require("../utils/apiFeatures");
+const catchAsync = require("../utils/catchAsync");
 
 exports.aliasTopTours = (req, res, next) => {
   req.query.limit = "5";
@@ -7,8 +8,7 @@ exports.aliasTopTours = (req, res, next) => {
   next();
 };
 
-exports.getAllMovies = async (req, res) => {
-  try {
+exports.getAllMovies = catchAsync(async (req, res, next) => {
     // EXECUTE QUERY
     const features = new APIFeatures(Movie.find(), req.query)
       .filter()
@@ -28,145 +28,107 @@ exports.getAllMovies = async (req, res) => {
         length: movies.length,
       },
     });
-  } catch (err) {
-    res.status(500).json({
-      code: "1",
+});
+
+exports.getMoviesList = catchAsync(async (req, res, next) => {
+  const moviesList = await Movie.find();
+
+  res.status(200).json({
+    code: "0",
+    status: "success",
+    message: "Fetch data successfully",
+    data: {
+      moviesList: moviesList.map((el) => el.title),
+      length: moviesList.length,
+    },
+  });
+});
+
+exports.getMovie = catchAsync(async (req, res, next) => {
+  console.log("kjj");
+  const movie = await Movie.find({ _id: req.params.id });
+
+  if (!movie.length) {
+    return res.status(404).json({
+      code: "404",
       status: "fail",
-      message: "Something went wrong. Please try again somtimes later.",
-      error: err,
+      message: "Movie not found",
     });
   }
-};
 
-exports.getMovie = async (req, res) => {
-  try {
-    const movie = await Movie.find({ _id: req.params.id });
+  res.status(200).json({
+    code: "0",
+    status: "Successful",
+    message: "Fetch Movie Successfully",
+    data: movie,
+  });
+});
 
-    if (!movie.length) {
-      return res.status(404).json({
-        code: "404",
-        status: "fail",
-        message: "Movie not found",
-      });
-    }
+exports.postMovie = catchAsync(async (req, res, next) => {
+  const movie = await Movie.create(req.body);
+  console.log(req.body);
+  res.status(201).json({
+    code: "0",
+    status: "Successful",
+    message: "Create Movie Successfully",
+    data: movie,
+  });
+});
 
-    res.status(200).json({
-      code: "0",
-      status: "Successful",
-      message: "Fetch Movie Successfully",
-      data: movie,
-    });
-  } catch (err) {
-    res.status(500).json({
-      code: "1",
-      status: "fail",
-      message: "Something went wrong. Please try again somtimes later.",
-      error: err,
-    });
-  }
-};
+exports.updateMovie = catchAsync(async (req, res, next) => {
+  const movie = await Movie.findByIdAndUpdate(req.params.id, req.body, {
+    new: true,
+    runValidators: true,
+  });
 
-exports.postMovie = async (req, res) => {
-  try {
-    const movie = await Movie.create(req.body);
-    console.log(req.body);
-    res.status(201).json({
-      code: "0",
-      status: "Successful",
-      message: "Create Movie Successfully",
-      data: movie,
-    });
-  } catch (err) {
-    res.status(500).json({
-      code: "1",
-      status: "fail",
-      message: "Something went wrong. Please try again somtimes later.",
-      error: err,
-    });
-  }
-};
+  res.status(200).json({
+    code: "0",
+    status: "success",
+    message: "Update movie detail successfully",
+    data: movie,
+  });
+});
 
-exports.updateMovie = async (req, res) => {
-  try {
-    const movie = await Movie.findByIdAndUpdate(req.params.id, req.body, {
-      new: true,
-      runValidators: true,
-    });
-
-    res.status(200).json({
-      code: "0",
-      status: "success",
-      message: "Update movie detail successfully",
-      data: movie,
-    });
-  } catch (err) {
-    res.status(500).json({
-      code: "1",
-      status: "fail",
-      message: "Something went wrong. Please try again somtimes later.",
-      error: err,
-    });
-  }
-};
-
-exports.deleteMovie = async (req, res) => {
-  try {
-    await Movie.findByIdAndDelete(req.params.id);
+exports.deleteMovie = catchAsync(async (req, res, next) => {
+  await Movie.findByIdAndDelete(req.params.id);
 
     res.status(204).json({
       code: "0",
       status: "success",
       message: "Movie delete successfully",
     });
-  } catch (err) {
-    res.status(500).json({
-      code: "1",
-      status: "fail",
-      message: "Something went wrong. Please try again somtimes later.",
-      error: err,
-    });
-  }
-};
+});
 
-exports.getMostPopularMovies = async (req, res) => {
-  try {
-    const stats = await Movie.aggregate([
-      {
-        $match: {
-          popularity: { $gte: 10 },
+exports.getMostPopularMovies = catchAsync(async (req, res, next) => {
+  const stats = await Movie.aggregate([
+    {
+      $match: {
+        popularity: { $gte: 10 },
+      },
+    },
+    {
+      $group: {
+        _id: "$genre",
+        numMovies: {
+          $sum: 1,
+        },
+        avgPopularity: {
+          $avg: "$popularity",
+        },
+        avgVoters: {
+          $avg: "$voters",
         },
       },
-      {
-        $group: {
-          _id: "$genre",
-          numMovies: {
-            $sum: 1,
-          },
-          avgPopularity: {
-            $avg: "$popularity",
-          },
-          avgVoters: {
-            $avg: "$voters",
-          },
-        },
-      },
-      {
-        $sort: { avgPopularity: 1 },
-      },
-    ]);
+    },
+    {
+      $sort: { avgPopularity: 1 },
+    },
+  ]);
 
-    res.status(200).json({
-      data: stats,
-    });
-  } catch (err) {
-    res.status(500).json({
-      code: "1",
-      status: "fail",
-      message: "Something went wrong. Please try again somtimes later.",
-      error: err,
-    });
-  }
-};
+  res.status(200).json({
+    data: stats,
+  });
+});
 
 // exports.getMostPopularMovies = async (req, res) => {
 //   try {

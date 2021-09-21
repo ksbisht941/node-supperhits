@@ -1,16 +1,20 @@
 const express = require("express");
 const morgan = require("morgan");
 
+const AppError = require("./utils/appError");
+const globalErrorHandler = require("./controllers/errorController");
+
 const movieRoutes = require("./routes/movieRoutes");
 const userRoutes = require("./routes/userRoutes");
 const directorRoutes = require("./routes/directorRoutes");
 
+
 const app = express();
 
 // MORGAN MIDDLEWARE
-if (process.env.NODE_ENV === "development") {
+// if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
-}
+// }
 
 // JSON MIDDLEWARE
 app.use(express.json());
@@ -30,23 +34,11 @@ app.get("*", (req, res, next) => {
   //   message: "Can't find path on this server",
   // });
 
-  const err = new Error("Can't find path on this server.");
-  (err.status = "fail"), (err.statusCode = 404);
-
+  const err = new AppError("Can't find path on this server.", 404);
   next(err);
 });
 
 // GLOBAL ERROR HANDLER MIDDLEWARE
-app.use((err, req, res, next) => {
-  err.statusCode = err.statusCode || 500;
-  err.status = err.status || "error";
-
-  res.status(err.statusCode).json({
-    code: err.statusCode.toString(),
-    status: err.status,
-    message: err.message,
-  });
-  next();
-});
+app.use(globalErrorHandler);
 
 module.exports = app;
