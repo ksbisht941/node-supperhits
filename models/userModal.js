@@ -18,7 +18,6 @@ const userSchema = mongoose.Schema({
   photo: String,
   role: {
     type: String,
-    required: [true, 'User must have a role'],
     enum: ['user', 'admin', 'operator'],
     default: 'user'
   },
@@ -44,6 +43,11 @@ const userSchema = mongoose.Schema({
   },
   passwordResetToken: String,
   passwordResetExpires: Date,
+  active: {
+    type: Boolean,
+    default: true,
+    select: false
+  }
 });
 
 userSchema.pre("save", async function (next) {
@@ -65,6 +69,12 @@ userSchema.pre('save', function(next) {
   if (!this.isModified('password') || this.isNew) return next();
 
   this.passwordChangedAt = Date.now() - 1000;
+  next();
+});
+
+userSchema.pre(/^find/, function(next) {
+  // this points to the current query
+  this.find({ active: { $ne: false } });
   next();
 });
 
