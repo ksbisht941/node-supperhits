@@ -9,6 +9,7 @@ router.route("/signin").post(authController.signin);
 
 router.route("/forgotPassword").post(authController.forgotPassword);
 router.route("/resetPassword/:token").post(authController.resetPassword);
+router.route("/updatePassword").post(authController.protect, authController.updatePassword);
 
 router.route("/").get(userController.getAllUser);
 
