@@ -2,7 +2,7 @@ const User = require("./../models/userModal");
 const catchAysnc = require("./../utils/catchAsync");
 
 exports.getAllUser = catchAysnc(async (req, res, next) => {
-  const users = await User.find();
+  const users = await User.find({role: 'user'});
   res.status(200).json({
     code: "0",
     status: "success",

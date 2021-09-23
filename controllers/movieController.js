@@ -45,7 +45,6 @@ exports.getMoviesList = catchAsync(async (req, res, next) => {
 });
 
 exports.getMovie = catchAsync(async (req, res, next) => {
-  console.log("kjj");
   const movie = await Movie.find({ _id: req.params.id });
 
   if (!movie.length) {
