@@ -1,11 +1,12 @@
 const express = require("express");
 const movieController = require("./../controllers/movieController");
+const authController = require("./../controllers/authController");
 
 const router = express.Router();
 
 router.route("/popular-movies").get(movieController.getMostPopularMovies);
 
-router.route("/list").get(movieController.getMoviesList);
+router.route("/list").get(authController.protect, movieController.getMoviesList);
   
 router
   .route("/")
