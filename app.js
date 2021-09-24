@@ -12,6 +12,7 @@ const globalErrorHandler = require("./controllers/errorController");
 const movieRoutes = require("./routes/movieRoutes");
 const userRoutes = require("./routes/userRoutes");
 const directorRoutes = require("./routes/directorRoutes");
+const reviewRoutes = require("./routes/reviewRoutes");
 
 
 const app = express();
@@ -62,6 +63,7 @@ app.use(express.static(`${__dirname}/public`));
 app.use("/api/v1/movies/", movieRoutes);
 app.use("/api/v1/users/", userRoutes);
 app.use("/api/v1/directors/", directorRoutes);
+app.use("/api/v1/reviews/", reviewRoutes);
 
 app.get("*", (req, res, next) => {
   // res.status(404).json({

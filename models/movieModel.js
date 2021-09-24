@@ -6,7 +6,7 @@ const movieSchema = new mongoose.Schema(
     title: {
       type: String,
       required: [true, "A movie must have a title."],
-      unique: true
+      unique: true,
     },
     slug: String,
     rated: {
@@ -56,15 +56,16 @@ const movieSchema = new mongoose.Schema(
           "Satire",
           "Biography",
           "Drama",
+          "Sci-Fi"
         ],
         message: ["Invalid movie genre"],
       },
     },
-    popularity: {
+    rating: {
       type: Number,
-      default: 10,
+      default: 7.5,
       min: [1, "Popularity must be above 1"],
-      max: [100, "Popularity must be below 100"],
+      max: [10, "Popularity must be below 10"],
       set: (val) => Math.round(val * 10) / 10, // 4.666666, 46.6666, 47, 4.7
     },
     voters: {
@@ -110,12 +111,20 @@ const movieSchema = new mongoose.Schema(
   }
 );
 
+// VIRTUAL
 movieSchema.virtual("adult").get(function () {
-  return this.rated === 'R' ? true : false;
+  return this.rated === "R" ? true : false;
+});
+
+// VIRTUAL POPULATE
+movieSchema.virtual('reviews', {
+  ref: 'Review',
+  foreignField: 'movie',
+  localField: '_id'
 });
 
 // DOCUMENT MIDDLEWARE: runs before .save() and .create()
-movieSchema.pre('save', function (next) {
+movieSchema.pre("save", function (next) {
   this.slug = slugify(this.title, { lower: true });
   next();
 });
@@ -133,6 +142,16 @@ movieSchema.pre('save', function (next) {
 //   console.log(this.pipeline());
 //   next();
 // });
+
+movieSchema.pre(/^find/, function(next) {
+  // this points to the current query
+  this.populate({
+    path: 'views',
+    select: '-__v'
+  });
+
+  next();
+});
 
 const Movie = mongoose.model("Movie", movieSchema);
 

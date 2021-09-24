@@ -41,6 +41,18 @@ const userSchema = mongoose.Schema({
     type: Date,
     select: false
   },
+  watchList: {
+    type: mongoose.Schema.ObjectId,
+    ref: "Movie",
+  },
+  likes: {
+    type: mongoose.Schema.ObjectId,
+    ref: "Like",
+  },
+  reviews: {
+    type: mongoose.Schema.ObjectId,
+    ref: "Review",
+  },
   passwordResetToken: String,
   passwordResetExpires: Date,
   active: {

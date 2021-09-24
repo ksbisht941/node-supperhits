@@ -2,11 +2,11 @@ const Movie = require("./../models/movieModel");
 const APIFeatures = require("../utils/apiFeatures");
 const catchAsync = require("../utils/catchAsync");
 
-exports.aliasTopTours = (req, res, next) => {
-  req.query.limit = "5";
-  req.query.sort = "released";
-  next();
-};
+// exports.aliasTopTours = (req, res, next) => {
+//   req.query.limit = "5";
+//   req.query.sort = "released";
+//   next();
+// };
 
 exports.getAllMovies = catchAsync(async (req, res, next) => {
     // EXECUTE QUERY
@@ -45,7 +45,7 @@ exports.getMoviesList = catchAsync(async (req, res, next) => {
 });
 
 exports.getMovie = catchAsync(async (req, res, next) => {
-  const movie = await Movie.find({ _id: req.params.id });
+  const movie = await Movie.find({ _id: req.params.id }).populate('reviews');
 
   if (!movie.length) {
     return res.status(404).json({
