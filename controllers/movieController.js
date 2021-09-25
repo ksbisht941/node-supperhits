@@ -9,98 +9,33 @@ const factory = require("./handlerFactory");
 //   next();
 // };
 
-exports.getAllMovies = catchAsync(async (req, res, next) => {
-    // EXECUTE QUERY
-    const features = new APIFeatures(Movie.find(), req.query)
-      .filter()
-      .sort()
-      .limitFields()
-      .paginate();
+// exports.getAllMovies = catchAsync(async (req, res, next) => {
+//     // EXECUTE QUERY
+//     const features = new APIFeatures(Movie.find(), req.query)
+//       .filter()
+//       .sort()
+//       .limitFields()
+//       .paginate();
 
-    const movies = await features.query;
+//     const movies = await features.query;
 
-    // SEND RESPONSE
-    res.status(200).json({
-      code: "0",
-      status: "success",
-      message: "Fetch Movies List Successfully",
-      data: {
-        list: movies,
-        length: movies.length,
-      },
-    });
-});
-
-exports.getMoviesList = catchAsync(async (req, res, next) => {
-  const moviesList = await Movie.find();
-
-  res.status(200).json({
-    code: "0",
-    status: "success",
-    message: "Fetch data successfully",
-    data: {
-      moviesList: moviesList.map((el) => el.title),
-      length: moviesList.length,
-    },
-  });
-});
-
-exports.getMovie = catchAsync(async (req, res, next) => {
-  const movie = await Movie.find({ _id: req.params.id }).populate('reviews');
-
-  if (!movie.length) {
-    return res.status(404).json({
-      code: "404",
-      status: "fail",
-      message: "Movie not found",
-    });
-  }
-
-  res.status(200).json({
-    code: "0",
-    status: "Successful",
-    message: "Fetch Movie Successfully",
-    data: movie,
-  });
-});
-
-exports.postMovie = catchAsync(async (req, res, next) => {
-  const movie = await Movie.create(req.body);
-  console.log(req.body);
-  res.status(201).json({
-    code: "0",
-    status: "Successful",
-    message: "Create Movie Successfully",
-    data: movie,
-  });
-});
-
-// exports.updateMovie = catchAsync(async (req, res, next) => {
-//   const movie = await Movie.findByIdAndUpdate(req.params.id, req.body, {
-//     new: true,
-//     runValidators: true,
-//   });
-
-//   res.status(200).json({
-//     code: "0",
-//     status: "success",
-//     message: "Update movie detail successfully",
-//     data: movie,
-//   });
-// });
-
-exports.updateMovie = factory.updateOne(Movie);
-
-// exports.deleteMovie = catchAsync(async (req, res, next) => {
-//   await Movie.findByIdAndDelete(req.params.id);
-
-//     res.status(204).json({
+//     // SEND RESPONSE
+//     res.status(200).json({
 //       code: "0",
 //       status: "success",
-//       message: "Movie delete successfully",
+//       message: "Fetch Movies List Successfully",
+//       data: {
+//         list: movies,
+//         length: movies.length,
+//       },
 //     });
 // });
 
+exports.getAllMovies = factory.getAll(Movie);
+exports.getMoviesList = factory.getSpecificFields(Movie, 'title');
+exports.getMovie = factory.getOne(Movie, { path: 'reviews' });
+exports.postMovie = factory.createOne(Movie);
+exports.updateMovie = factory.updateOne(Movie);
 exports.deleteMovie = factory.deleteOne(Movie);
 
 exports.getMostPopularMovies = catchAsync(async (req, res, next) => {
