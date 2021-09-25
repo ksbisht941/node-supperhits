@@ -6,12 +6,15 @@ const directorSchema = mongoose.Schema({
     unique: true,
     required: [true, "Director name is a required field."],
   },
-  movies: [
-    {
-      type: mongoose.Schema.ObjectId,
-      ref: "Movie",
-    },
-  ],
+  awards: {
+
+  },
+  achiements: {
+
+  },
+  dateOfBirth: {
+
+  },
   about: {
       type: String,
       trim: true

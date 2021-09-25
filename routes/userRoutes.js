@@ -1,7 +1,6 @@
 const express = require("express");
 const authController = require("./../controllers/authController");
 const userController = require("./../controllers/userController");
-const reviewController = require("./../controllers/reviewController");
 
 const router = express.Router();
 
@@ -11,11 +10,26 @@ router.route("/signin").post(authController.signin);
 router.route("/forgotPassword").post(authController.forgotPassword);
 router.route("/resetPassword/:token").post(authController.resetPassword);
 
-router.route("/updatePassword").patch(authController.protect, authController.updatePassword);
+// Protect all routes after this middleware
+router.use(authController.protect);
 
-router.route("/").get(userController.getAllUser);
+router.route("/updatePassword").patch(authController.updatePassword);
+router.get("/me", userController.getMe, userController.getUser);
+router.patch("/updateMe", userController.updateMe);
+router.delete("/deleteMe", userController.deleteMe);
 
-router.route("/updateMe").post(authController.protect, userController.updateMe);
-router.route("/deleteMe").delete(authController.protect, userController.deleteMe);
+// Restrict all routes after this middleware
+router.use(authController.restrictTo('admin'));
+
+router
+  .route("/")
+  .get(userController.getAllUser)
+  .post(userController.createUser);
+
+router
+  .route("/:id")
+  .get(userController.getUser)
+  .patch(userController.updateUser)
+  .delete(userController.deleteUser);
 
 module.exports = router;
