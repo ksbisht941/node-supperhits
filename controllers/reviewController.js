@@ -15,12 +15,15 @@ exports.getAllReviews = catchAsync(async (req, res, next) => {
     message: "Fetch data successfully",
     data: {
       length: reviews.length,
-      reviews: reviews
-    }
+      reviews: reviews,
+    },
   });
 });
 
 exports.createReview = catchAsync(async (req, res, next) => {
+  if (!req.body.movie) req.body.movie = req.params.movieId;
+  if (!req.body.user) req.body.user = req.user.id;
+
   const doc = await Review.create(req.body);
 
   res.status(201).json({
