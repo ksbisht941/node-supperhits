@@ -1,6 +1,7 @@
 const Movie = require("./../models/movieModel");
 const APIFeatures = require("../utils/apiFeatures");
 const catchAsync = require("../utils/catchAsync");
+const factory = require("./handlerFactory");
 
 // exports.aliasTopTours = (req, res, next) => {
 //   req.query.limit = "5";
@@ -74,29 +75,33 @@ exports.postMovie = catchAsync(async (req, res, next) => {
   });
 });
 
-exports.updateMovie = catchAsync(async (req, res, next) => {
-  const movie = await Movie.findByIdAndUpdate(req.params.id, req.body, {
-    new: true,
-    runValidators: true,
-  });
+// exports.updateMovie = catchAsync(async (req, res, next) => {
+//   const movie = await Movie.findByIdAndUpdate(req.params.id, req.body, {
+//     new: true,
+//     runValidators: true,
+//   });
 
-  res.status(200).json({
-    code: "0",
-    status: "success",
-    message: "Update movie detail successfully",
-    data: movie,
-  });
-});
+//   res.status(200).json({
+//     code: "0",
+//     status: "success",
+//     message: "Update movie detail successfully",
+//     data: movie,
+//   });
+// });
 
-exports.deleteMovie = catchAsync(async (req, res, next) => {
-  await Movie.findByIdAndDelete(req.params.id);
+exports.updateMovie = factory.updateOne(Movie);
 
-    res.status(204).json({
-      code: "0",
-      status: "success",
-      message: "Movie delete successfully",
-    });
-});
+// exports.deleteMovie = catchAsync(async (req, res, next) => {
+//   await Movie.findByIdAndDelete(req.params.id);
+
+//     res.status(204).json({
+//       code: "0",
+//       status: "success",
+//       message: "Movie delete successfully",
+//     });
+// });
+
+exports.deleteMovie = factory.deleteOne(Movie);
 
 exports.getMostPopularMovies = catchAsync(async (req, res, next) => {
   const stats = await Movie.aggregate([
