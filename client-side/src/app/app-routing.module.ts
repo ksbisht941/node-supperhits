@@ -15,6 +15,9 @@ const routes: Routes = [
   //   path: 'in/movies',
   //   loadChildren: () => import('./modules/movies/movies.module').then(m => m.MoviesModule)
   // },
+  {
+    path: '**', redirectTo: 'in', pathMatch: 'full'
+  }
 ];
 
 @NgModule({

@@ -2,16 +2,18 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './components/home.component';
 import { HomeRoutingModule } from './home-routing.module';
-
-
+import { MastheadAreaComponent } from './components/masthead-area/masthead-area.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    MastheadAreaComponent,
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    SharedModule
   ]
 })
 export class HomeModule { }

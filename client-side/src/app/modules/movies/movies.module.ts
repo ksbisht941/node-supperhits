@@ -4,14 +4,13 @@ import { MoviesComponent } from './components/movies.component';
 import { MovieRoutingModule } from './movies-routing.module';
 
 
-
 @NgModule({
   declarations: [
     MoviesComponent
   ],
   imports: [
     CommonModule,
-    MovieRoutingModule
+    MovieRoutingModule,
   ]
 })
 export class MoviesModule { }
