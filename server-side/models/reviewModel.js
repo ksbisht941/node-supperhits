@@ -33,6 +33,8 @@ const reviewSchema = new mongoose.Schema(
   }
 );
 
+reviewSchema.index({ movie: 1, user: 1 }, { unique: true });
+
 reviewSchema.pre(/^find/, function () {
   this.populate({
     path: "user",

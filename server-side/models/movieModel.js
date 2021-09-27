@@ -111,6 +111,8 @@ const movieSchema = new mongoose.Schema(
   }
 );
 
+movieSchema.index({ rating: 1 });
+
 // VIRTUAL
 movieSchema.virtual("adult").get(function () {
   return this.rated === "R" ? true : false;
