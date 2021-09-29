@@ -18,25 +18,12 @@ export class TrayAreaComponent implements OnInit {
 
   slides = [
     { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" },
-    { img: "./../../../assets/previews/593669-v.webp" }
+   
   ];
 
   slideConfig = {
-    slidesToShow: 8.5,
-    slidesToScroll: 1,
+    // slidesToShow: 8.5,
+    slidesToScroll: 8,
     infinite: false,
     arrows: true,
     center: false,
