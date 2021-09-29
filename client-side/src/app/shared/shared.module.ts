@@ -1,20 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DetailPageComponent } from './detail-page/detail-page.component';
 import { TrayAreaComponent } from './tray-area/tray-area.component';
-
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 
 @NgModule({
   declarations: [
-    DetailPageComponent,
     TrayAreaComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SlickCarouselModule
   ],
   exports: [
-    DetailPageComponent,
     TrayAreaComponent
   ]
 })

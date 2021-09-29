@@ -4,6 +4,7 @@ import { HomeComponent } from './components/home.component';
 import { HomeRoutingModule } from './home-routing.module';
 import { MastheadAreaComponent } from './components/masthead-area/masthead-area.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SharedModule } from 'src/app/shared/shared.module';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule
+    SharedModule,
+    SlickCarouselModule
   ]
 })
 export class HomeModule { }
