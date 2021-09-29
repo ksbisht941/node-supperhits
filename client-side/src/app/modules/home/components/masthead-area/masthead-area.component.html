@@ -1,1 +1,59 @@
-<p>masthead-area works!</p>
+<div class="masthead-area">
+  <div class="masthead">
+    <div class="masthead-overlay left"></div>
+    <div>
+      <div class="masthead-container">
+        <ngx-slick-carousel
+          class="carousel"
+          #slickModal="slick-carousel"
+          [config]="slideConfig"
+        >
+          <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+            <div class="masthead-item-container">
+              <div role="presentation">
+                <div tabindex target href="#">
+                  <div class="masthead-card">
+                    <div class="image-holder">
+                      <div class="imageloader loaded">
+                        <img
+                          src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1_5x/sources/r1/cms/prod/9885/1059885-h-9e3b782d7829"
+                          alt="Maestro"
+                          class=""
+                        />
+                      </div>
+                    </div>
+
+                    <div class="image-gradient"></div>
+
+                    <div class="masthead-data">
+                      <div class="container"></div>
+                      <div class="masthead-badge"></div>
+                      <div class="slider-caption non-subs-caption">
+                        <div class="container">
+                          <div class="content-holder">
+                            <div class="title ellipsize">Bigg Boss</div>
+                            <div class="toptitle">
+                              <span class="meta-data">Star Maa</span
+                              ><span class="meta-data">Telugu</span
+                              ><span class="meta-data">Reality</span>
+                            </div>
+                            <div class="description">
+                              NEW EP WILL BE AVAILABLE AT 10 PM. It's time for
+                              real entertainment! King Nagarjuna is back with a
+                              new interesting mix of contestants who are all set
+                              to face the test of a lifetime!
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ngx-slick-carousel>
+      </div>
+    </div>
+  </div>
+</div>

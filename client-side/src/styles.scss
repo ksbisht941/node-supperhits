@@ -3,8 +3,10 @@
 :root {
   --BG_GRADIENT_L0: linear-gradient(to bottom, #141b29, #0c111b 300px);
   --TEXT_COLOR_L0: #fff;
+  --TEXT_COLOR_L1: rgba(255, 255, 255, 0.8);
   --BG_COLOR_L1: #192133;
   --BRAND_BLUE: #1f80e0;
+  --CARD_GRADIENT: #030b17;
 }
 
 * {
@@ -88,8 +90,11 @@ a {
   }
 }
 
+.slick-list {
+  overflow: visible !important;
+}
+
 .tray-area .slider-container .slick-list {
-  overflow: visible;
   margin-left: 5px;
   -webkit-transform: none !important;
   -ms-transform: none !important;

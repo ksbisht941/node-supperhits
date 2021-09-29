@@ -35,8 +35,8 @@ export class TrayAreaComponent implements OnInit {
   ];
 
   slideConfig = {
-    // slidesToShow: 8.5,
-    // slidesToScroll: 1,
+    slidesToShow: 8.5,
+    slidesToScroll: 1,
     infinite: false,
     arrows: true,
     center: false,
