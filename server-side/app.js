@@ -13,7 +13,7 @@ const movieRoutes = require("./routes/movieRoutes");
 const userRoutes = require("./routes/userRoutes");
 const directorRoutes = require("./routes/directorRoutes");
 const reviewRoutes = require("./routes/reviewRoutes");
-
+const cors = require('cors');
 
 const app = express();
 
@@ -21,6 +21,10 @@ const app = express();
 // if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
 // }
+
+app.use(cors({
+  origin: '*'
+}));
 
 // Limit requests from same API
 const limiter = rateLimit({
