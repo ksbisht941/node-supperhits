@@ -1,0 +1,2354 @@
+[
+  {
+    "title": "Mulan",
+    "contentId": 1260048586,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=802594&contentId=1260048586&offset=0&size=20&tao=0&tas=5",
+    "id": 802594,
+    "description": "Masquerading as a male soldier to protect her father and tested every step of the way, Mulan must harness her inner-strength and embrace her true potential.",
+    "duration": 6909,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Action", "Adventure"],
+    "lang": ["English", "Hindi", "Tamil", "Telugu"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1607021034,
+    "endDate": 4102338600,
+    "year": 2020,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260048586",
+    "images": {
+      "v": "sources/r1/cms/prod/6653/846653-v",
+      "h": "sources/r1/cms/prod/6652/846652-h"
+    },
+    "defaultImgs": {
+      "v": "sources/r1/cms/prod/6653/846653-v",
+      "h": "sources/r1/cms/prod/6652/846652-h"
+    },
+    "studioId": 8,
+    "studioName": "Disney",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      },
+      {
+        "hide": false,
+        "id": 9,
+        "name": "Hindi",
+        "iso3code": "hin",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=9&offset=0&size=20",
+        "displayName": "हिंदी"
+      },
+      {
+        "hide": false,
+        "id": 5,
+        "name": "Tamil",
+        "iso3code": "tam",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=5&offset=0&size=20",
+        "displayName": "தமிழ்"
+      },
+      {
+        "hide": false,
+        "id": 10,
+        "name": "Telugu",
+        "iso3code": "tel",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=10&offset=0&size=20",
+        "displayName": "తెలుగు"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15,
+        "name": "Action",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15&offset=0&size=20"
+      },
+      {
+        "id": 15063,
+        "name": "Adventure",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15063&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": [
+      "1260048201",
+      "1260050709",
+      "1260050757",
+      "1260050688",
+      "1260050749",
+      "1260050747",
+      "1260050447",
+      "1260050697",
+      "1260050704",
+      "1260050691",
+      "1260050699",
+      "1260050754",
+      "1260050680",
+      "1260050692",
+      "1260050711",
+      "1260050694",
+      "1260050745"
+    ],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Battle Scenes",
+    "detail": "Moderate violence",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1260048201",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050709",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050757",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050688",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050749",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050747",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050447",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050697",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050704",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050691",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050699",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050754",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050680",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050692",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050711",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050694",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050745",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Soul",
+    "contentId": 1260049853,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=818099&contentId=1260049853&offset=0&size=20&tao=0&tas=5",
+    "id": 818099,
+    "description": "After a small misstep, Joe is transported to The Great Before and must find his way back with the help of an infant soul learning about herself.",
+    "duration": 6034,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Animation", "Fantasy", "Adventure", "Kids"],
+    "lang": ["English"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1608883200,
+    "endDate": 4102424940,
+    "year": 2020,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260049853",
+    "images": {
+      "v": "sources/r1/cms/prod/219/860219-v",
+      "h": "sources/r1/cms/prod/218/860218-h"
+    },
+    "defaultImgs": {
+      "v": "sources/r1/cms/prod/219/860219-v",
+      "h": "sources/r1/cms/prod/218/860218-h"
+    },
+    "studioId": 94,
+    "studioName": "Pixar",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15061,
+        "name": "Animation",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15061&offset=0&size=20"
+      },
+      {
+        "id": 15064,
+        "name": "Fantasy",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15064&offset=0&size=20"
+      },
+      {
+        "id": 15063,
+        "name": "Adventure",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15063&offset=0&size=20"
+      },
+      {
+        "id": 20,
+        "name": "Kids",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=20&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": [
+      "1260047878",
+      "1260050247",
+      "1260050245",
+      "1260050237",
+      "1260050246",
+      "1260050242",
+      "1260050241"
+    ],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 7+",
+    "crisp": "Suitable for All",
+    "detail": "Suitable for all",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1260047878",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050247",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050245",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050237",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050246",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050242",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260050241",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Raya and the Last Dragon",
+    "contentId": 1260062999,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=922353&contentId=1260062999&offset=0&size=20&tao=0&tas=5",
+    "id": 922353,
+    "description": "Raya, a fallen princess, must track down the legendary last dragon to stop the evil forces that have returned and threaten her world.",
+    "duration": 6448,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Animation", "Fantasy", "Adventure", "Kids"],
+    "lang": ["English", "Hindi", "Tamil", "Telugu"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1622790000,
+    "endDate": 1640975340,
+    "year": 2021,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260062999",
+    "images": {
+      "v": "sources/r1/cms/prod/6879/1036879-v-0c7332475e07",
+      "h": "sources/r1/cms/prod/6878/1036878-h-3da0d7e00398"
+    },
+    "defaultImgs": {
+      "v": "sources/r1/cms/prod/6879/1036879-v-0c7332475e07",
+      "h": "sources/r1/cms/prod/6878/1036878-h-3da0d7e00398"
+    },
+    "studioId": 8,
+    "studioName": "Disney",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      },
+      {
+        "hide": false,
+        "id": 9,
+        "name": "Hindi",
+        "iso3code": "hin",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=9&offset=0&size=20",
+        "displayName": "हिंदी"
+      },
+      {
+        "hide": false,
+        "id": 5,
+        "name": "Tamil",
+        "iso3code": "tam",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=5&offset=0&size=20",
+        "displayName": "தமிழ்"
+      },
+      {
+        "hide": false,
+        "id": 10,
+        "name": "Telugu",
+        "iso3code": "tel",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=10&offset=0&size=20",
+        "displayName": "తెలుగు"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15061,
+        "name": "Animation",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15061&offset=0&size=20"
+      },
+      {
+        "id": 15064,
+        "name": "Fantasy",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15064&offset=0&size=20"
+      },
+      {
+        "id": 15063,
+        "name": "Adventure",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15063&offset=0&size=20"
+      },
+      {
+        "id": 20,
+        "name": "Kids",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=20&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": [
+      "1260065186",
+      "1260063454",
+      "1260063453",
+      "1260063449",
+      "1260063456",
+      "1260063452",
+      "1260063450",
+      "1260063406",
+      "1260063448",
+      "1260063418",
+      "1260063455",
+      "1260063439",
+      "1260063446",
+      "1260063444",
+      "1260063440",
+      "1260055016",
+      "1260063447",
+      "1260063445",
+      "1260063437"
+    ],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 7+",
+    "detail": "Suitable for all",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1260065186",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063454",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063453",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063449",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063456",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063452",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063450",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063406",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063448",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063418",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063455",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063439",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063446",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063444",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063440",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260055016",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063447",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063445",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063437",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Cruella",
+    "contentId": 1260067149,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=951300&contentId=1260067149&offset=0&size=20&tao=0&tas=5",
+    "id": 951300,
+    "description": "The film is about the rebellious early days of cinema's most notorious and fashionable villains, the legendary Cruella de Vil.",
+    "duration": 8035,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Crime", "Comedy"],
+    "lang": ["English", "Hindi", "Tamil", "Telugu"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1630047600,
+    "endDate": 4102424940,
+    "year": 2021,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260067149",
+    "images": {
+      "v": "sources/r1/cms/prod/8631/1048631-v-d2c4728b76c1",
+      "h": "sources/r1/cms/prod/8630/1048630-h-c2405ed05f69"
+    },
+    "defaultImgs": {
+      "v": "sources/r1/cms/prod/8631/1048631-v-d2c4728b76c1",
+      "h": "sources/r1/cms/prod/8630/1048630-h-c2405ed05f69"
+    },
+    "studioId": 8,
+    "studioName": "Disney",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      },
+      {
+        "hide": false,
+        "id": 9,
+        "name": "Hindi",
+        "iso3code": "hin",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=9&offset=0&size=20",
+        "displayName": "हिंदी"
+      },
+      {
+        "hide": false,
+        "id": 5,
+        "name": "Tamil",
+        "iso3code": "tam",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=5&offset=0&size=20",
+        "displayName": "தமிழ்"
+      },
+      {
+        "hide": false,
+        "id": 10,
+        "name": "Telugu",
+        "iso3code": "tel",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=10&offset=0&size=20",
+        "displayName": "తెలుగు"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 10,
+        "name": "Crime",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=10&offset=0&size=20"
+      },
+      {
+        "id": 8,
+        "name": "Comedy",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=8&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": [
+      "1260067117",
+      "1260067174",
+      "1260067161",
+      "1260067165",
+      "1260067155",
+      "1260067154",
+      "1260067179",
+      "1260067156",
+      "1260067153",
+      "1260067169"
+    ],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 7+",
+    "crisp": "Some Intense Sequences",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1260067117",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260067174",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260067161",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260067165",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260067155",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260067154",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260067179",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260067156",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260067153",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260067169",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Luca",
+    "contentId": 1260063730,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=931915&contentId=1260063730&offset=0&size=20&tao=0&tas=5",
+    "id": 931915,
+    "description": "The movie is a coming-of-age story about one young boy experiencing an unforgettable summer filled with gelato, pasta and endless scooter rides.",
+    "duration": 5718,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Animation", "Fantasy", "Adventure", "Kids"],
+    "lang": ["English", "Hindi", "Tamil", "Telugu"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1623999600,
+    "endDate": 4102338600,
+    "year": 2021,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260063730",
+    "images": {
+      "v": "sources/r1/cms/prod/9289/1039289-v-d29d30949241",
+      "h": "sources/r1/cms/prod/9288/1039288-h-3543a28994c9"
+    },
+    "defaultImgs": {
+      "v": "sources/r1/cms/prod/9289/1039289-v-d29d30949241",
+      "h": "sources/r1/cms/prod/9288/1039288-h-3543a28994c9"
+    },
+    "studioId": 94,
+    "studioName": "Pixar",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      },
+      {
+        "hide": false,
+        "id": 9,
+        "name": "Hindi",
+        "iso3code": "hin",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=9&offset=0&size=20",
+        "displayName": "हिंदी"
+      },
+      {
+        "hide": false,
+        "id": 5,
+        "name": "Tamil",
+        "iso3code": "tam",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=5&offset=0&size=20",
+        "displayName": "தமிழ்"
+      },
+      {
+        "hide": false,
+        "id": 10,
+        "name": "Telugu",
+        "iso3code": "tel",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=10&offset=0&size=20",
+        "displayName": "తెలుగు"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15061,
+        "name": "Animation",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15061&offset=0&size=20"
+      },
+      {
+        "id": 15064,
+        "name": "Fantasy",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15064&offset=0&size=20"
+      },
+      {
+        "id": 15063,
+        "name": "Adventure",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15063&offset=0&size=20"
+      },
+      {
+        "id": 20,
+        "name": "Kids",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=20&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": ["1260065752", "1260063938"],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 7+",
+    "detail": "Suitable for all",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1260065752",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      },
+      {
+        "contentId": "1260063938",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Ford v Ferrari",
+    "contentId": 1260029222,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=703236&contentId=1260029222&offset=0&size=20&tao=0&tas=5",
+    "id": 703236,
+    "description": "Caroll Shelby and Ken Miles battle against all the odds to build a race car for Ford Motor Company and take on the dominant Ferraris at the Le Mans in 1966.",
+    "duration": 9153,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Biopic", "Drama"],
+    "lang": ["English", "Hindi"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1593455400,
+    "endDate": 4102338600,
+    "year": 2019,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260029222",
+    "images": {
+      "v": "sources/r1/cms/prod/3145/813145-v",
+      "h": "sources/r1/cms/prod/3144/813144-h"
+    },
+    "defaultImgs": {
+      "v": "sources/r1/cms/prod/3145/813145-v",
+      "h": "sources/r1/cms/prod/3144/813144-h"
+    },
+    "studioId": 1,
+    "studioName": "FOX",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      },
+      {
+        "hide": false,
+        "id": 9,
+        "name": "Hindi",
+        "iso3code": "hin",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=9&offset=0&size=20",
+        "displayName": "हिंदी"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 22,
+        "name": "Biopic",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=22&offset=0&size=20"
+      },
+      {
+        "id": 3,
+        "name": "Drama",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=3&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": ["1260028329"],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 16+",
+    "crisp": "Coarse Language, Some Disturbing Scenes",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1260028329",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Isle of Dogs",
+    "contentId": 1770020239,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=545555&contentId=1770020239&offset=0&size=20&tao=0&tas=5",
+    "id": 545555,
+    "description": "Atari sets off to Trash Island in search of his bodyguard-dog, Spots. He begins an epic journey that will decide the fate of the Megasaki Prefecture.",
+    "duration": 6065,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Animation", "Science Fiction", "Comedy"],
+    "lang": ["English"],
+    "premium": true,
+    "live": false,
+    "hboContent": true,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1555547400,
+    "endDate": 4102424940,
+    "year": 2018,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1770020239",
+    "images": {
+      "t": "sources/r1/cms/prod/1063/801063-t",
+      "v": "sources/r1/cms/prod/4440/384440-v",
+      "h": "sources/r1/cms/prod/4439/384439-h",
+      "i": "sources/r1/cms/prod/1062/801062-i",
+      "m": "sources/r1/cms/prod/4443/384443-m"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/1063/801063-t",
+      "v": "sources/r1/cms/prod/4440/384440-v",
+      "h": "sources/r1/cms/prod/4439/384439-h",
+      "i": "sources/r1/cms/prod/1062/801062-i",
+      "m": "sources/r1/cms/prod/4443/384443-m"
+    },
+    "studioId": 1,
+    "studioName": "FOX",
+    "contentDownloadable": false,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15061,
+        "name": "Animation",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15061&offset=0&size=20"
+      },
+      {
+        "id": 15055,
+        "name": "Science Fiction",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15055&offset=0&size=20"
+      },
+      {
+        "id": 8,
+        "name": "Comedy",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=8&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "BEST_EFFORT",
+    "downloadDrmClass": "BEST_EFFORT",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Some Sexual References, Some Coarse Language, Some Violence, Brief Nudity, Some Disturbing Scenes",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "X-Men: Dark Phoenix",
+    "contentId": 1260017860,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=645022&contentId=1260017860&offset=0&size=20&tao=0&tas=5",
+    "id": 645022,
+    "description": "After a rescue mission in space, Jean Grey behaves unstably. The X-Men must find a way to save her soul and our very planet from this menacing force.",
+    "duration": 6834,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Superhero", "Action"],
+    "lang": ["English", "Hindi", "Tamil", "Telugu"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1579804260,
+    "endDate": 4102424940,
+    "year": 2019,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260017860",
+    "images": {
+      "t": "sources/r1/cms/prod/839/800839-t",
+      "v": "sources/r1/cms/prod/525/820525-v",
+      "h": "sources/r1/cms/prod/524/820524-h",
+      "i": "sources/r1/cms/prod/838/800838-i"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/839/800839-t",
+      "v": "sources/r1/cms/prod/525/820525-v",
+      "h": "sources/r1/cms/prod/524/820524-h",
+      "i": "sources/r1/cms/prod/838/800838-i"
+    },
+    "studioId": 1,
+    "studioName": "FOX",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      },
+      {
+        "hide": false,
+        "id": 9,
+        "name": "Hindi",
+        "iso3code": "hin",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=9&offset=0&size=20",
+        "displayName": "हिंदी"
+      },
+      {
+        "hide": false,
+        "id": 5,
+        "name": "Tamil",
+        "iso3code": "tam",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=5&offset=0&size=20",
+        "displayName": "தமிழ்"
+      },
+      {
+        "hide": false,
+        "id": 10,
+        "name": "Telugu",
+        "iso3code": "tel",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=10&offset=0&size=20",
+        "displayName": "తెలుగు"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15048,
+        "name": "Superhero",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15048&offset=0&size=20"
+      },
+      {
+        "id": 15,
+        "name": "Action",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "BEST_EFFORT",
+    "downloadDrmClass": "BEST_EFFORT",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Violence, Some Coarse Language",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "X-Men: Apocalypse",
+    "contentId": 1770015391,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=4087&contentId=1770015391&offset=0&size=20&tao=0&tas=5",
+    "id": 4087,
+    "description": "The X-Men stand united to face Apocalypse, the first mutant, who returns from the darkness and sees today's mutants as weak.",
+    "duration": 8635,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Superhero", "Action"],
+    "lang": ["English"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1495672200,
+    "endDate": 4102424940,
+    "year": 2016,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1770015391",
+    "images": {
+      "t": "sources/r1/cms/prod/989/800989-t",
+      "v": "sources/r1/cms/prod/old_images/vertical/MOVIE/5391/1770015391/1770015391-v",
+      "h": "sources/r1/cms/prod/old_images/MOVIE/5391/1770015391/1770015391-h",
+      "i": "sources/r1/cms/prod/988/800988-i"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/989/800989-t",
+      "v": "sources/r1/cms/prod/old_images/vertical/MOVIE/5391/1770015391/1770015391-v",
+      "h": "sources/r1/cms/prod/old_images/MOVIE/5391/1770015391/1770015391-h",
+      "i": "sources/r1/cms/prod/988/800988-i"
+    },
+    "studioId": 1,
+    "studioName": "FOX",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15048,
+        "name": "Superhero",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15048&offset=0&size=20"
+      },
+      {
+        "id": 15,
+        "name": "Action",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "BEST_EFFORT",
+    "downloadDrmClass": "BEST_EFFORT",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": ["1000079321"],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Some Coarse Language, Some Violence",
+    "detail": "Strong language;moderate violence",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1000079321",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "X-Men: Days of Future Past",
+    "contentId": 1770000446,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=3499&contentId=1770000446&offset=0&size=20&tao=0&tas=5",
+    "id": 3499,
+    "description": "The X-Men set out to destroy Sentinels, who are hunting humans and mutants as Logan decides to go back in time to prevent the Sentinels from being created.",
+    "duration": 7569,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Twentieth century FOX film Corporation",
+    "cpDisplayName": "Twentieth century FOX film Corporation",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Superhero", "Action"],
+    "lang": ["English"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1459449000,
+    "endDate": 4102424940,
+    "year": 2014,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1770000446",
+    "images": {
+      "t": "sources/r1/cms/prod/892/800892-t",
+      "v": "sources/r1/cms/prod/7631/177631-v",
+      "h": "sources/r1/cms/prod/7629/177629-h",
+      "i": "sources/r1/cms/prod/891/800891-i"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/892/800892-t",
+      "v": "sources/r1/cms/prod/7631/177631-v",
+      "h": "sources/r1/cms/prod/7629/177629-h",
+      "i": "sources/r1/cms/prod/891/800891-i"
+    },
+    "studioId": 1,
+    "studioName": "FOX",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15048,
+        "name": "Superhero",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15048&offset=0&size=20"
+      },
+      {
+        "id": 15,
+        "name": "Action",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "BEST_EFFORT",
+    "downloadDrmClass": "BEST_EFFORT",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Some Coarse Language, Fantasy Violence",
+    "detail": "Moderate Violence, Moderate Language",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Avengers: Endgame",
+    "contentId": 1260013556,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=621184&contentId=1260013556&offset=0&size=20&tao=0&tas=5",
+    "id": 621184,
+    "description": "After the devastating events of the Infinity War, the Avengers assemble once more to reverse Thanos’ actions and restore balance to the universe.",
+    "duration": 10868,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Superhero", "Action"],
+    "lang": ["English", "Hindi", "Tamil", "Telugu"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1573583400,
+    "endDate": 4102424940,
+    "year": 2019,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260013556",
+    "images": {
+      "t": "sources/r1/cms/prod/8786/808786-t",
+      "v": "sources/r1/cms/prod/5157/875157-v",
+      "h": "sources/r1/cms/prod/4469/674469-h",
+      "i": "sources/r1/cms/prod/8785/808785-i"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/8786/808786-t",
+      "v": "sources/r1/cms/prod/5157/875157-v",
+      "h": "sources/r1/cms/prod/4469/674469-h",
+      "i": "sources/r1/cms/prod/8785/808785-i"
+    },
+    "studioId": 95,
+    "studioName": "Marvel",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      },
+      {
+        "hide": false,
+        "id": 9,
+        "name": "Hindi",
+        "iso3code": "hin",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=9&offset=0&size=20",
+        "displayName": "हिंदी"
+      },
+      {
+        "hide": false,
+        "id": 5,
+        "name": "Tamil",
+        "iso3code": "tam",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=5&offset=0&size=20",
+        "displayName": "தமிழ்"
+      },
+      {
+        "hide": false,
+        "id": 10,
+        "name": "Telugu",
+        "iso3code": "tel",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=10&offset=0&size=20",
+        "displayName": "తెలుగు"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15048,
+        "name": "Superhero",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15048&offset=0&size=20"
+      },
+      {
+        "id": 15,
+        "name": "Action",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": ["1260019965"],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Some Coarse Language, Battle Scenes",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1260019960",
+        "playbackType": "INTERNAL",
+        "orientation": "VERTICAL"
+      },
+      {
+        "contentId": "1260019965",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Maleficent: Mistress Of Evil",
+    "contentId": 1260025280,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=680227&contentId=1260025280&offset=0&size=20&tao=0&tas=5",
+    "id": 680227,
+    "description": "Maleficent and her goddaughter Aurora begin to question their tangled ties as they are pulled in different directions by the impending wedding.",
+    "duration": 7159,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Adventure", "Fantasy", "Family"],
+    "lang": ["English", "Hindi"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1589526900,
+    "endDate": 4102424940,
+    "year": 2019,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260025280",
+    "images": {
+      "v": "sources/r1/cms/prod/1219/871219-v",
+      "h": "sources/r1/cms/prod/183/670183-h"
+    },
+    "defaultImgs": {
+      "v": "sources/r1/cms/prod/1219/871219-v",
+      "h": "sources/r1/cms/prod/183/670183-h"
+    },
+    "studioId": 8,
+    "studioName": "Disney",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      },
+      {
+        "hide": false,
+        "id": 9,
+        "name": "Hindi",
+        "iso3code": "hin",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=9&offset=0&size=20",
+        "displayName": "हिंदी"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15063,
+        "name": "Adventure",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15063&offset=0&size=20"
+      },
+      {
+        "id": 15064,
+        "name": "Fantasy",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15064&offset=0&size=20"
+      },
+      {
+        "id": 7,
+        "name": "Family",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=7&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": ["1260025810"],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 7+",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1260025810",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Star Wars: The Rise Of Skywalker",
+    "contentId": 1260025290,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=680431&contentId=1260025290&offset=0&size=20&tao=0&tas=5",
+    "id": 680431,
+    "description": "The surviving members of the resistance face the First Order once again, as the landmark Skywalker saga reaches its conclusion.",
+    "duration": 8530,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Adventure", "Science Fiction", "Action"],
+    "lang": ["English", "Hindi"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1588574700,
+    "endDate": 4102424940,
+    "year": 2019,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260025290",
+    "images": {
+      "v": "sources/r1/cms/prod/197/670197-v",
+      "h": "sources/r1/cms/prod/195/670195-h"
+    },
+    "defaultImgs": {
+      "v": "sources/r1/cms/prod/197/670197-v",
+      "h": "sources/r1/cms/prod/195/670195-h"
+    },
+    "studioId": 96,
+    "studioName": "LucasFilm",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      },
+      {
+        "hide": false,
+        "id": 9,
+        "name": "Hindi",
+        "iso3code": "hin",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=9&offset=0&size=20",
+        "displayName": "हिंदी"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15063,
+        "name": "Adventure",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15063&offset=0&size=20"
+      },
+      {
+        "id": 15055,
+        "name": "Science Fiction",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15055&offset=0&size=20"
+      },
+      {
+        "id": 15,
+        "name": "Action",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": ["1260025811"],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Moderate Language, Fantasy Violence",
+    "detail": "Mild Language, Moderate violence",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1260025811",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "The Wolverine",
+    "contentId": 1770000445,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=3498&contentId=1770000445&offset=0&size=20&tao=0&tas=5",
+    "id": 3498,
+    "description": "In Japan, Wolverine faces his nemesis in a do-or-die battle as his inner struggles come to the fore. It is an ordeal that will see him change forever.",
+    "duration": 7566,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Superhero", "Action"],
+    "lang": ["English"],
+    "premium": true,
+    "live": false,
+    "hboContent": true,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1459449000,
+    "endDate": 4102424940,
+    "year": 2013,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1770000445",
+    "images": {
+      "t": "sources/r1/cms/prod/868/800868-t",
+      "v": "sources/r1/cms/prod/old_images/vertical/MOVIE/445/1770000445/1770000445-v",
+      "h": "sources/r1/cms/prod/old_images/MOVIE/445/1770000445/1770000445-h",
+      "i": "sources/r1/cms/prod/867/800867-i"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/868/800868-t",
+      "v": "sources/r1/cms/prod/old_images/vertical/MOVIE/445/1770000445/1770000445-v",
+      "h": "sources/r1/cms/prod/old_images/MOVIE/445/1770000445/1770000445-h",
+      "i": "sources/r1/cms/prod/867/800867-i"
+    },
+    "studioId": 1,
+    "studioName": "FOX",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15048,
+        "name": "Superhero",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15048&offset=0&size=20"
+      },
+      {
+        "id": 15,
+        "name": "Action",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "BEST_EFFORT",
+    "downloadDrmClass": "BEST_EFFORT",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Some Coarse Language, Some Violence",
+    "detail": "Moderate Language, Moderate Violence",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "X-Men: First Class",
+    "contentId": 1770000666,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=3513&contentId=1770000666&offset=0&size=20&tao=0&tas=5",
+    "id": 3513,
+    "description": "During the Cold War, fellow mutants Charles Xavier and Erik Lehnsherr join forces with other mutants to save humanity from a nuclear attack.",
+    "duration": 7901,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Twentieth century FOX film Corporation",
+    "cpDisplayName": "Twentieth century FOX film Corporation",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Superhero", "Action"],
+    "lang": ["English"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1459449000,
+    "endDate": 4102424940,
+    "year": 2011,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1770000666",
+    "images": {
+      "t": "sources/r1/cms/prod/820/800820-t",
+      "v": "sources/r1/cms/prod/7616/177616-v",
+      "h": "sources/r1/cms/prod/4748/184748-h",
+      "i": "sources/r1/cms/prod/819/800819-i"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/820/800820-t",
+      "v": "sources/r1/cms/prod/7616/177616-v",
+      "h": "sources/r1/cms/prod/4748/184748-h",
+      "i": "sources/r1/cms/prod/819/800819-i"
+    },
+    "studioId": 1,
+    "studioName": "FOX",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15048,
+        "name": "Superhero",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15048&offset=0&size=20"
+      },
+      {
+        "id": 15,
+        "name": "Action",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "BEST_EFFORT",
+    "downloadDrmClass": "BEST_EFFORT",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": ["1000242326"],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Some Coarse Language, Fantasy Violence",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1000242326",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "X-Men Origins: Wolverine",
+    "contentId": 1770000667,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=3514&contentId=1770000667&offset=0&size=20&tao=0&tas=5",
+    "id": 3514,
+    "description": "A mutant and future X-Men member called Wolverine sets out to avenge the deaths of his loved ones at the hands of Sabretooth.",
+    "duration": 6440,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Twentieth century FOX film Corporation",
+    "cpDisplayName": "Twentieth century FOX film Corporation",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Superhero", "Action"],
+    "lang": ["English"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1459449000,
+    "endDate": 4102424940,
+    "year": 2009,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1770000667",
+    "images": {
+      "t": "sources/r1/cms/prod/843/800843-t",
+      "v": "sources/r1/cms/prod/old_images/vertical/MOVIE/667/1770000667/1770000667-v",
+      "h": "sources/r1/cms/prod/old_images/MOVIE/667/1770000667/1770000667-h",
+      "i": "sources/r1/cms/prod/842/800842-i"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/843/800843-t",
+      "v": "sources/r1/cms/prod/old_images/vertical/MOVIE/667/1770000667/1770000667-v",
+      "h": "sources/r1/cms/prod/old_images/MOVIE/667/1770000667/1770000667-h",
+      "i": "sources/r1/cms/prod/842/800842-i"
+    },
+    "studioId": 1,
+    "studioName": "FOX",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15048,
+        "name": "Superhero",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15048&offset=0&size=20"
+      },
+      {
+        "id": 15,
+        "name": "Action",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "BEST_EFFORT",
+    "downloadDrmClass": "BEST_EFFORT",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Some Coarse Language, Fantasy Violence",
+    "detail": "Moderate Violence",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Toy Story 4",
+    "contentId": 1260015326,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=634870&contentId=1260015326&offset=0&size=20&tao=0&tas=5",
+    "id": 634870,
+    "description": "When a new toy called Forky joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy.",
+    "duration": 6023,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Animation", "Adventure", "Fantasy", "Kids"],
+    "lang": ["English", "Hindi", "Tamil", "Telugu"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1585848600,
+    "endDate": 4102424940,
+    "year": 2019,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260015326",
+    "images": {
+      "t": "sources/r1/cms/prod/9308/809308-t",
+      "v": "sources/r1/cms/prod/4492/674492-v",
+      "h": "sources/r1/cms/prod/4487/674487-h",
+      "i": "sources/r1/cms/prod/9307/809307-i"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/9308/809308-t",
+      "v": "sources/r1/cms/prod/4492/674492-v",
+      "h": "sources/r1/cms/prod/4487/674487-h",
+      "i": "sources/r1/cms/prod/9307/809307-i"
+    },
+    "studioId": 94,
+    "studioName": "Pixar",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      },
+      {
+        "hide": false,
+        "id": 9,
+        "name": "Hindi",
+        "iso3code": "hin",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=9&offset=0&size=20",
+        "displayName": "हिंदी"
+      },
+      {
+        "hide": false,
+        "id": 5,
+        "name": "Tamil",
+        "iso3code": "tam",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=5&offset=0&size=20",
+        "displayName": "தமிழ்"
+      },
+      {
+        "hide": false,
+        "id": 10,
+        "name": "Telugu",
+        "iso3code": "tel",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=10&offset=0&size=20",
+        "displayName": "తెలుగు"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15061,
+        "name": "Animation",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15061&offset=0&size=20"
+      },
+      {
+        "id": 15063,
+        "name": "Adventure",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15063&offset=0&size=20"
+      },
+      {
+        "id": 15064,
+        "name": "Fantasy",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15064&offset=0&size=20"
+      },
+      {
+        "id": 20,
+        "name": "Kids",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=20&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": ["1260022959"],
+    "parentalRating": 1,
+    "parentalRatingName": "U",
+    "crisp": "Suitable for All",
+    "detail": "Suitable for all",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1260022959",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Mrs. Doubtfire",
+    "contentId": 1260027110,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=689752&contentId=1260027110&offset=0&size=20&tao=0&tas=5",
+    "id": 689752,
+    "description": "After the divorce of a couple leaves the wife with custody of their three children, the husband dresses up as a British nanny to spend time with his kids.",
+    "duration": 7509,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Novi Digital",
+    "cpDisplayName": "Hotstar",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Comedy", "Family"],
+    "lang": ["English"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1593196200,
+    "endDate": 4102424940,
+    "year": 1993,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1260027110",
+    "images": {
+      "t": "sources/r1/cms/prod/9126/809126-t",
+      "v": "sources/r1/cms/prod/4825/684825-v",
+      "h": "sources/r1/cms/prod/4824/684824-h",
+      "i": "sources/r1/cms/prod/9125/809125-i"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/9126/809126-t",
+      "v": "sources/r1/cms/prod/4825/684825-v",
+      "h": "sources/r1/cms/prod/4824/684824-h",
+      "i": "sources/r1/cms/prod/9125/809125-i"
+    },
+    "studioId": 1,
+    "studioName": "FOX",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 8,
+        "name": "Comedy",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=8&offset=0&size=20"
+      },
+      {
+        "id": 7,
+        "name": "Family",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=7&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "trailers": ["1260027206"],
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Language",
+    "detail": "Mild Sexual References, Strong Language",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "autoplayObjs": [
+      {
+        "contentId": "1260027206",
+        "playbackType": "INTERNAL",
+        "orientation": "HORIZONTAL"
+      }
+    ],
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "Rio",
+    "contentId": 1770000661,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=3512&contentId=1770000661&offset=0&size=20&tao=0&tas=5",
+    "id": 3512,
+    "description": "Blu is a Spix's macaw born in Rio De Janeiro but raised in Moose Lake, Minnesota. He meets Jewel and goes on an adventure to Rio de Janeiro with her.",
+    "duration": 5517,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Twentieth century FOX film Corporation",
+    "cpDisplayName": "Twentieth century FOX film Corporation",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Animation", "Adventure", "Fantasy", "Kids"],
+    "lang": ["English"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1589049000,
+    "endDate": 4102424940,
+    "year": 2011,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1770000661",
+    "images": {
+      "t": "sources/r1/cms/prod/9031/809031-t",
+      "v": "sources/r1/cms/prod/6638/666638-v",
+      "h": "sources/r1/cms/prod/6637/666637-h",
+      "i": "sources/r1/cms/prod/9030/809030-i"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/9031/809031-t",
+      "v": "sources/r1/cms/prod/6638/666638-v",
+      "h": "sources/r1/cms/prod/6637/666637-h",
+      "i": "sources/r1/cms/prod/9030/809030-i"
+    },
+    "studioId": 1,
+    "studioName": "FOX",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15061,
+        "name": "Animation",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15061&offset=0&size=20"
+      },
+      {
+        "id": 15063,
+        "name": "Adventure",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15063&offset=0&size=20"
+      },
+      {
+        "id": 15064,
+        "name": "Fantasy",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15064&offset=0&size=20"
+      },
+      {
+        "id": 20,
+        "name": "Kids",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=20&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "NO_COMPROMISE",
+    "downloadDrmClass": "NO_COMPROMISE",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "parentalRating": 1,
+    "parentalRatingName": "U",
+    "crisp": "Suitable for All",
+    "detail": "Mild violence",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  },
+  {
+    "title": "X-Men: The Last Stand",
+    "contentId": 1770000804,
+    "uri": "https://api.hotstar.com/o/v1/movie/detail?id=3583&contentId=1770000804&offset=0&size=20&tao=0&tas=5",
+    "id": 3583,
+    "description": "When humans find a cure for mutation, Professor Charles Xavier and the X-Men must hold fort while Magneto and his followers try to turn the cure on the humans.",
+    "duration": 6239,
+    "entityType": "MOVIE",
+    "contentType": "MOVIE",
+    "contentProvider": "Twentieth century FOX film Corporation",
+    "cpDisplayName": "Twentieth century FOX film Corporation",
+    "cpLogoUrl": "https://secure-media.hotstar.com/static/NewsV2/PartnerLogos/hotstar.png",
+    "assetType": "MOVIE",
+    "genre": ["Superhero", "Action"],
+    "lang": ["English"],
+    "premium": true,
+    "live": false,
+    "hboContent": false,
+    "vip": true,
+    "encrypted": true,
+    "startDate": 1459449000,
+    "endDate": 4102424940,
+    "year": 2006,
+    "playbackUri": "https://api.hotstar.com/h/v1/play?contentId=1770000804",
+    "images": {
+      "t": "sources/r1/cms/prod/824/800824-t",
+      "v": "sources/r1/cms/prod/7613/177613-v",
+      "h": "sources/r1/cms/prod/7610/177610-h",
+      "i": "sources/r1/cms/prod/823/800823-i"
+    },
+    "defaultImgs": {
+      "t": "sources/r1/cms/prod/824/800824-t",
+      "v": "sources/r1/cms/prod/7613/177613-v",
+      "h": "sources/r1/cms/prod/7610/177610-h",
+      "i": "sources/r1/cms/prod/823/800823-i"
+    },
+    "studioId": 1,
+    "studioName": "FOX",
+    "contentDownloadable": true,
+    "offlineStorageTime": 30,
+    "offlinePlaybackTime": 30,
+    "playbackType": "INTERNAL",
+    "monetisable": false,
+    "langObjs": [
+      {
+        "hide": false,
+        "id": 3,
+        "name": "English",
+        "iso3code": "eng",
+        "detailUrl": "https://api.hotstar.com/o/v1/language/detail?id=3&offset=0&size=20",
+        "displayName": "English"
+      }
+    ],
+    "genreObjs": [
+      {
+        "id": 15048,
+        "name": "Superhero",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15048&offset=0&size=20"
+      },
+      {
+        "id": 15,
+        "name": "Action",
+        "detailUrl": "https://api.hotstar.com/o/v1/genre/detail?id=15&offset=0&size=20"
+      }
+    ],
+    "languageSelector": 1,
+    "drmClass": "BEST_EFFORT",
+    "downloadDrmClass": "BEST_EFFORT",
+    "contentStartPointSeconds": 0,
+    "badges": ["NP"],
+    "labels": ["VIP"],
+    "clipType": "VOD",
+    "parentalRating": 2,
+    "parentalRatingName": "U/A 13+",
+    "crisp": "Violence",
+    "isSocialEnabled": false,
+    "loginNudgeStatus": "DEFAULT",
+    "orientation": "HORIZONTAL",
+    "isSubTagged": false,
+    "collections": [
+      {
+        "name": "Disney+"
+      }
+    ]
+  }
+]
